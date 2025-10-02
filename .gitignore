@@ -1,5 +1,7 @@
+
 Binaries
 DerivedDataCache
+*.log
 Intermediate
 Saved
 Content/Assets
