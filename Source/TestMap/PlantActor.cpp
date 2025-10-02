@@ -16,6 +16,12 @@ void APlantActor::BeginPlay()
 
     // 초기 메시 세팅
     UpdateMesh();
+
+    CurrentStage = 0;
+
+  
+
+ 
 }
 
 void APlantActor::Tick(float DeltaTime)
@@ -64,4 +70,5 @@ void APlantActor::UpdateMesh()
     case 3: MeshComponent->SetStaticMesh(MatureMesh); break;
     default: break;
     }
+
 }
