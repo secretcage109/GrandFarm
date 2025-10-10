@@ -6,6 +6,7 @@
 #include "PlantStruct.h"
 #include "PlantActor.generated.h"
 
+
 UCLASS()
 class TESTMAP_API APlantActor : public AActor
 {
@@ -59,4 +60,11 @@ protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Growth")
     int32 CurrentStage;
     
+    // PlantActor.h
+
+   // BP_Soda 클래스를 에디터에서 지정할 수 있게 하기
+    UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = "Growth")
+    TSubclassOf<AActor> SodaActorClass;
+
+
 };
