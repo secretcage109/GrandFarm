@@ -29,6 +29,10 @@
 		{
 			"Name": "MediaFrameworkUtilities",
 			"Enabled": true
+		},
+		{
+			"Name": "SoundUtilities",
+			"Enabled": true
 		}
 	]
 }

@@ -19,3 +19,13 @@ Content/Movies
 *.suo
 *.xcodeproj
 *.xcworkspace
+Content/Movies/Intro_Video.uasset
+Content/Movies/MP_IntroPlayer.uasset
+Content/Movies/MP_IntroPlayer_Video.uasset
+Content/Movies/MS_IntroVideo.uasset
+*.uasset
+Content/Movies/Intro_Video.uasset
+Content/Movies/MP_IntroPlayer.uasset
+Content/Movies/MP_IntroPlayer_Video.uasset
+Content/Movies/MS_IntroVideo.uasset
+*.uasset
