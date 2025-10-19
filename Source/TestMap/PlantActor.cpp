@@ -59,7 +59,7 @@ void APlantActor::UpdateGrowthByTime(float DeltaTime)
         ElapsedTime += DeltaTime * GrowthRate;
 
     // 하루 = 86400초 기준 → 10초 기준 예시
-        float DaysPassed = ElapsedTime / 225.f;
+        float DaysPassed = ElapsedTime / 122.f;
 
         if (DaysPassed >= 3.f)
         {
